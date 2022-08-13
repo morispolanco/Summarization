@@ -1,5 +1,5 @@
 import streamlit as st
-import gateway
+import gateways
 
 def header():
     st.header('Resumidor')
