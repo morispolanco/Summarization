@@ -5,7 +5,7 @@ TOKEN = os.getenv("TOKEN")
 
 def conect_resumidor(data):
     url = 'https://api.deepai.org/api/summarization'
-    headers = {"Content-Type": "application/json", "Authorization": api-key}
+    headers = {"Content-Type": "application/json", "Authorization": TOKEN}
 
     text = {
         "text":data
