@@ -4,7 +4,7 @@ import os
 TOKEN = os.getenv("TOKEN")
 
 def conect_resumidor(data):
-    url = 'https://api.nlpcloud.io/v1/gpu/es/finetuned-gpt-neox-20b/summarization'
+    url = 'https://api.deepai.org/api/summarization'
     headers = {"Content-Type": "application/json", "Authorization": TOKEN}
 
     text = {
