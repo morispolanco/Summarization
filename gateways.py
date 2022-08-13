@@ -1,11 +1,11 @@
 import requests
 import os
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("KEY")
 
 def conect_resumidor(data):
     url = 'https://api.deepai.org/api/summarization'
-    headers = {"Content-Type": "application/json", "Authorization": token}
+    headers = {"Content-Type": "application/json", "Authorization": key}
 
     text = {
         "text":data
