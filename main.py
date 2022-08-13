@@ -1,12 +1,12 @@
 import streamlit as st
-import gateways
+import gateway
 
 def header():
     st.header('Resumidor')
     st.text('version 0 - Last update 08/08/2022')
 
 def instert_text():
-    txt = st.text_area("Escríba aqui", height=250)
+    txt = st.text_area("Texto", height=250)
     colum1, colum2,colum3,colum4,colum5 = st.columns([1,1,1,1,1])
     
     if colum1.button("Resuma"):
